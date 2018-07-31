@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".TentangActivity"
+    android:id="@+id/Tentangg"
+    android:background="@drawable/about">
+
+    <ImageView
+        android:id="@+id/Tentang"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+        android:src="@drawable/splashikon" />
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Tentang"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textColor="#FFFFFF"
+        android:layout_margin="15dp"
+        android:text="Faissy Gratty"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/jurusan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/nama"
+        android:layout_centerHorizontal="true"
+        android:text="TEKNIK INFORMATIKA"
+        android:textSize="23dp" />
+
+    <TextView
+        android:id="@+id/kampus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jurusan"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:text="UNIVERSITAS GUNADARMA"
+        android:textSize="23dp" />
+
+    <TextView
+        android:id="@+id/hosfinder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kampus"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textColor="#FFFFFF"
+        android:text="Hospital Finder"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hosfinder"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:text="2017"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>
